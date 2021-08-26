@@ -1,4 +1,4 @@
-<h1> Sistema de Consultório </h1>
+# Sistema de Consultório
 &nbsp;&nbsp;&nbsp;&nbsp;
 
   Projeto feito em Java que simula um sistema de cadastro de novos pacientes. <br>

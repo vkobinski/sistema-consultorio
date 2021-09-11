@@ -46,7 +46,7 @@ public class CadastroConcluido extends javax.swing.JFrame {
         jLabel5.setBounds(450, 100, 120, 20);
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel6.setText("Seja Bem Vindo(a),           !");
+        jLabel6.setText("Seja Bem Vindo(a),!");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(30, 100, 350, 20);
 

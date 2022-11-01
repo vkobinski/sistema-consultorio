@@ -1,3 +1,6 @@
+// Done by: Victor Kobinski e Silva
+// UEPG - State University of Ponta Grossa
+
 package br.com.hospital.factory;
 
 import java.sql.Connection;
@@ -28,7 +31,5 @@ public class ConnectionFactory {
 		}
 	}
 	
-	// Done by: Victor Kobinski e Silva
-   	 // UEPG - State University of Ponta Grossa
 
 }

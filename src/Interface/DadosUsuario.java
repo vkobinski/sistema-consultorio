@@ -1,3 +1,6 @@
+// Done by: Victor Kobinski e Silva
+// UEPG - State University of Ponta Grossa
+
 package Interface;
 
 import javax.swing.JTable;
@@ -101,9 +104,9 @@ public class DadosUsuario extends javax.swing.JFrame {
 		modelo.addRow(new Object[] {this.paciente.getSenha(), this.paciente.getDataDeNascimento(), this.paciente.getCidade(), this.paciente.getBairro()});
 		modelo.addRow(new Object[] {"Cep", "UF", "Estado Civil", "RG"});
 		modelo.addRow(new Object[] {this.paciente.getCep(), this.paciente.getUf(), this.paciente.getEstadoCivil(), this.paciente.getRg()});
-		modelo.addRow(new Object[] {"Escolaridade", "Profissão", "Rua", "Complemento"});
+		modelo.addRow(new Object[] {"Escolaridade", "ProfissÃ£o", "Rua", "Complemento"});
 		modelo.addRow(new Object[] {this.paciente.getEscolaridade(), this.paciente.getProfissao(), this.paciente.getRua(), this.paciente.getComplemento()});
-		modelo.addRow(new Object[] {"Nacionalidade", "Sexo", "Tipo Sanguíneo", "N° da Carteira do SUS"});
+		modelo.addRow(new Object[] {"Nacionalidade", "Sexo", "Tipo SanguÃ­neo", "NÂ° da Carteira do SUS"});
 		modelo.addRow(new Object[] {this.paciente.getNacionalidade(), this.paciente.getSexo(), this.paciente.getTipoSanguineo(), this.paciente.getNumeroCarteiraSus()});
 	}
 }

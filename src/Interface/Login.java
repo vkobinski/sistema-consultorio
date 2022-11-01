@@ -172,6 +172,4 @@ public class Login extends javax.swing.JFrame {
     	
     }
     
-    // Done by: Victor Kobinski e Silva
-    // UEPG - State University of Ponta Grossa
 }

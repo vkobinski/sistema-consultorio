@@ -1,3 +1,6 @@
+// Done by: Victor Kobinski e Silva
+// UEPG - State University of Ponta Grossa
+
 package Interface;
 
 public class CancelarCadastro extends javax.swing.JFrame {

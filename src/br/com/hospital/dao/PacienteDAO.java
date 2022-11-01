@@ -1,3 +1,6 @@
+// Done by: Victor Kobinski e Silva
+// UEPG - State University of Ponta Grossa
+
 package br.com.hospital.dao;
 
 import java.sql.Connection;
@@ -185,7 +188,5 @@ public class PacienteDAO {
 		return false;
 	}
 	
-	// Done by: Victor Kobinski e Silva
-    	// UEPG - State University of Ponta Grossa
 	
 }

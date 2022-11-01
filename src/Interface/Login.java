@@ -36,7 +36,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(180, 160, 20, 30);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Usu·rio.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Usu√°rio.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(270, 70, 70, 80);
         getContentPane().add(jLabel7);
@@ -74,7 +74,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(240, 240, 120, 30);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Ret‚ngulo 1_4.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/Ret√¢ngulo 1_4.png"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(160, 10, 300, 370);
 
@@ -171,4 +171,7 @@ public class Login extends javax.swing.JFrame {
     	}
     	
     }
+    
+    // Done by: Victor Kobinski e Silva
+    // UEPG - State University of Ponta Grossa
 }

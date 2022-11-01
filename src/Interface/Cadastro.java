@@ -68,7 +68,7 @@ public class Cadastro extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        escolaridade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "\t\t", "Ensino Fundamental", "Ensino Médio", "Ensino Superior", "Pós-Graduação", "Mestrado", "Doutorado", "Não fiz" }));
+        escolaridade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "\t\t", "Ensino Fundamental", "Ensino MÃ©dio", "Ensino Superior", "PÃ³s-GraduaÃ§Ã£o", "Mestrado", "Doutorado", "NÃ£o fiz" }));
         getContentPane().add(escolaridade);
         escolaridade.setBounds(440, 90, 121, 30);
 
@@ -89,7 +89,7 @@ public class Cadastro extends javax.swing.JFrame {
         jTextField7.setBounds(440, 90, 120, 30);
 
         jLabel12.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jLabel12.setText("Profissão");
+        jLabel12.setText("ProfissÃ£o");
         getContentPane().add(jLabel12);
         jLabel12.setBounds(570, 70, 60, 14);
 
@@ -325,7 +325,7 @@ public class Cadastro extends javax.swing.JFrame {
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Observações...");
+        jTextArea1.setText("ObservaÃ§Ãµes...");
         jScrollPane2.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane2);
@@ -356,7 +356,7 @@ public class Cadastro extends javax.swing.JFrame {
         uf.setBounds(115, 210, 50, 30);
 
         jLabel27.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jLabel27.setText("N° Carteira do SUS");
+        jLabel27.setText("NÂ° Carteira do SUS");
         getContentPane().add(jLabel27);
         jLabel27.setBounds(500, 190, 110, 14);
 
@@ -587,7 +587,10 @@ public class Cadastro extends javax.swing.JFrame {
         
     	Paciente p = new Paciente(nomeCompleto.getText(), cpf.getText(), telefone.getText(), email.getText(), senha.getText(), dataNascimento.getText(), cidade.getText(), bairro.getText(), cep.getText(), uf.getSelectedItem().toString(), estadoCivil.getSelectedItem().toString(), rg.getText(), nomeMae, escolaridade.getSelectedItem().toString(), profissao.getText(), Rua.getText(), complemento.getText(), nacionalidade.getText(), sexo.getSelectedItem().toString(), tipoSanguineo.getSelectedItem().toString(), carteiraSus.getText());
     	new PacienteDAO().adicionar(p);
-    	System.out.println("Cadastro Concluído");
+    	System.out.println("Cadastro ConcluÃ­do");
     }
+    
+    // Done by: Victor Kobinski e Silva
+    // UEPG - State University of Ponta Grossa
     
 }

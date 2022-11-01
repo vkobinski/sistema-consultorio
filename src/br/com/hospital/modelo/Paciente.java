@@ -1,3 +1,6 @@
+// Done by: Victor Kobinski e Silva
+// UEPG - State University of Ponta Grossa
+
 package br.com.hospital.modelo;
 
 public class Paciente {

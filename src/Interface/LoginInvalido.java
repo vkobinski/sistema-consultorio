@@ -21,7 +21,7 @@ public class LoginInvalido extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jButton2.setText("N„o");
+        jButton2.setText("N√£o");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -39,7 +39,7 @@ public class LoginInvalido extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(110, 0, 40, 40);
 
-        jLabel3.setText("ATEN«√O!");
+        jLabel3.setText("ATEN√á√ÉO!");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(100, 40, 60, 14);
 
@@ -116,4 +116,7 @@ public class LoginInvalido extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
+    
+    // Done by: Victor Kobinski e Silva
+    // UEPG - State University of Ponta Grossa
 }

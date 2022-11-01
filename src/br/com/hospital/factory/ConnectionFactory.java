@@ -28,5 +28,7 @@ public class ConnectionFactory {
 		}
 	}
 	
+	// Done by: Victor Kobinski e Silva
+   	 // UEPG - State University of Ponta Grossa
 
 }
